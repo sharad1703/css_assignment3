@@ -1,0 +1,111 @@
+body {
+    font-family:  sans-serif;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('BackGround.jpg'); 
+    background-size: cover;
+    
+}
+
+header {
+    background: rgba(171, 99, 41, 0.65); /* Adjust the RGB values and opacity as needed */
+    color: rgba(201, 75, 75, 0.773);
+    text-align: center;
+    padding: 2em;
+    border: #a06e45;
+}
+
+/* Rest of your CSS */
+
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    
+}
+
+article {
+    flex: 1;
+    margin: 0 1em;
+    background-color: #a06e45;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+#logo img {
+    width: 100px;    
+    height: 100px;
+    margin-bottom: 2em;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+article {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #a06e45;
+}
+
+
+article img {
+    transition: transform 0.3s ease-in-out;
+    background-color: #a06e45;
+}
+
+article img:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    background: linear-gradient(to right, #333, #555);
+}
+
+
+#company-info p {
+    margin: 0.5em 0;
+}
+
+
+#contact-form input,
+#contact-form button {
+    margin: 0.5em 2;
+    padding: 0.7em;
+    border: 2px;
+   ;
+}
+
+#contact-form button {
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#contact-form button:hover {
+    background: #a06e45;
+}
+
+article .image{
+    background-color: #fff;
+}
+
